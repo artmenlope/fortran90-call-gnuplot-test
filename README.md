@@ -7,7 +7,7 @@ The [main program](https://github.com/artmenlope/fortran90-call-gnuplot-test/blo
 <img src="https://render.githubusercontent.com/render/math?math=f(x%2Cy)%20%3D%20%5Ccos(x%5E2%2By%5E2)%20%2B%20%5Csin(x%2By)"> 
 </p>
 
-in a suitable format for Gnuplot. Then, using the commands from the file [_gnuplot_script.plt_](https://github.com/artmenlope/fortran90-call-gnuplot-test/blob/master/gnuplot_script.plt), the generated data in [_data.txt_](https://github.com/artmenlope/fortran90-call-gnuplot-test/blob/master/data.txt) can be plotted in Gnuplot.
+in a suitable format for Gnuplot storing it in the file [_data.txt_](https://github.com/artmenlope/fortran90-call-gnuplot-test/blob/master/data.txt). Then, it calls Gnuplot for plotting the generated data using the commands from the file [_gnuplot_script.plt_](https://github.com/artmenlope/fortran90-call-gnuplot-test/blob/master/gnuplot_script.plt).
 
 The resulting plot is
 
