@@ -35,8 +35,8 @@ program main
     open (newunit=fileunit, file=filename, status='replace', action='write')
 
     ! Fill the data file with the desired x, y & f(x, y) values in the appropriate format for the 3D surface plotting in Gnuplot.
-    do i = 1, N
-        do j = 1, N
+    do i = 1, N+1
+        do j = 1, N+1
             write (fileunit, *) x(i), y(j), fxy(x(i), y(j))
         end do
         write (fileunit,*)
