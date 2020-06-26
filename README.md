@@ -1,5 +1,5 @@
 # fortran90-call-gnuplot-test
-This is a test to try calling Gnuplot from a Fortran 90 script.
+This is a test to try calling Gnuplot from a Fortran 90 script. The compiler used is GFortran.
 
 The [main program](https://github.com/artmenlope/fortran90-call-gnuplot-test/blob/master/main.f90) generates 3D data of the function
 
