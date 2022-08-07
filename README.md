@@ -3,9 +3,9 @@ This is a test to try calling Gnuplot from a Fortran 90 script. The compiler use
 
 The [main program](https://github.com/artmenlope/fortran90-call-gnuplot-test/blob/master/main.f90) generates 3D data of the function
 
-<p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=f(x%2Cy)%20%3D%20%5Ccos(x%5E2%2By%5E2)%20%2B%20%5Csin(x%2By)"> 
-</p>
+$$
+f(x, y) = \cos\left(x^2+y^2\right) + \sin\left(x+y\right)
+$$
 
 in a suitable format for Gnuplot storing it in the file [_data.txt_](https://github.com/artmenlope/fortran90-call-gnuplot-test/blob/master/data.txt). Then, it calls Gnuplot for plotting the generated data using the commands from the file [_gnuplot_script.plt_](https://github.com/artmenlope/fortran90-call-gnuplot-test/blob/master/gnuplot_script.plt).
 
